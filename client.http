@@ -2,3 +2,8 @@
 
 # @ping
 GET {{BASE_URL}}/ping
+
+###
+
+# @get_products
+GET {{BASE_URL}}/products

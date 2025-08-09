@@ -18,3 +18,8 @@ Content-Type: application/json
   "product_name": "Cachorro-quente",
   "product_price": "100"
 }
+
+###
+
+# @name get_product_by_id
+GET {{BASE_URL}}/products/3

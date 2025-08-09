@@ -5,5 +5,16 @@ GET {{BASE_URL}}/ping
 
 ###
 
-# @get_products
+# @name get_products
 GET {{BASE_URL}}/products
+
+###
+
+# @name create_product
+POST {{BASE_URL}}/products
+Content-Type: application/json
+
+{
+  "product_name": "Cachorro-quente",
+  "product_price": "100"
+}
